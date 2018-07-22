@@ -13,3 +13,27 @@
 // Object
 // ==========================================================================
 @import "object/*";
+
+// ==========================================================================
+// original
+// ==========================================================================
+@import "original/*";
+p {
+  margin: 0;
+}
+.article {
+  display: block;
+  background: #fff;
+}
+.section {
+  display: block;
+  padding: 0;
+  margin: 0 0 32px;
+}
+.title {
+  display: block;
+  padding: 0;
+  margin: 0 0 8px;
+  text-align: center;
+  font-size: 2.2rem;
+}

@@ -1,11 +1,11 @@
 extend includes/_layout
 append variables
 	//- Required
-	- var pageTitle= "";
+	- var pageTitle= "網谷豪";
 	- var pageDescription= site.description;
 	- var pageKeywords= site.keywords;
 	//- Optional
-	- var pageOgpTitle= "";
+	- var pageOgpTitle= "網谷豪";
 	- var pageOgpImage= site.ogpImage
 	- var pageLang= "ja";
 	- var pageOgpType= "website";
@@ -13,8 +13,37 @@ append variables
 	- var pageUrl= site.relativePath;
 
 block content
-	+gnavi( pageUrl )
+	// +gnavi( pageUrl )
 	// contents
-	h2= pageUrl
-	p Contents dsd
-	// /contents
+	// h2= pageUrl
+	.hero-wrap
+		figure.hero
+			img(src="images/hero.png").hero__image
+	article.article
+		.box.margin_bottom
+			.box__text
+				p これまでに制作したマンガやZINEのリンク一覧。
+					//
+						br
+						|  ほとんどWEBで無料で見ることができるけど、購入して見ることもできる。
+						br
+						| 購入して見てほしいと思っている。
+					//-
+		section.section
+			h2.title マンガ
+			ul.link-list
+				li.link-list__item
+					a(href="https://rookie.shonenjump.com/users/1609047349018503201" target="_blank").link
+						dl.link-dl
+							dt.link-dl__title ジャンプルーキー
+							dd.link-dl__data 「じゃがいもスパイBARM」という作品は、ジャンプルーキーにしかアップロードしていない。
+				li.link-list__item
+					a(href="http://toko.takekuma.jp/home.php?userid=273" target="_blank").link
+						dl.link-dl
+							dt.link-dl__title 投稿マヴォ
+							dd.link-dl__data 竹熊さんにマンガを見てもらうところ
+				li.link-list__item
+					a(href="https://www-indies.mangabox.me/episode/79908/" target="_blank").link
+						dl.link-dl
+							dt.link-dl__title マンガボックスインディーズ
+							dd.link-dl__data 「カセット＆ソフト」という作品は、マンガボックスインディーズにしかアップロードしていない。作者の作品一覧、みたいなページがないので、このリンクはその「カセット＆ソフト」に飛ぶ。

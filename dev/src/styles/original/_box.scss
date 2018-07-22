@@ -1,0 +1,15 @@
+.box {
+  display: block;
+  padding: 8px 16px;
+  line-height: 1.6em;
+  text-align: center;
+  font-size: 1.8rem;
+  background:#efefef;
+  &.margin_bottom {
+    margin-bottom: 16px;
+  }
+}
+.box__text {
+  display: inline-block;
+  text-align: left;
+}

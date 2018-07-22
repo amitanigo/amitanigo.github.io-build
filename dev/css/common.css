@@ -1,9 +1,9 @@
 :root {
-  font-size: 10px;
+  font-size: 8px;
 }
 
 body {
-  font-size: 14px;
+  font-size: 11.2px;
   font-size: 1.4rem;
 }
 
@@ -27,7 +27,6 @@ img {
   height: 7px;
   border-top: 2px solid #969696;
   border-right: 2px solid #969696;
-  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   position: absolute;
   left: 0;
@@ -4958,33 +4957,164 @@ img {
 }
 
 .u-typo--lv1 {
-  font-size: 32px;
+  font-size: 25.6px;
   font-size: 3.2rem;
 }
 
 .u-typo--lv2 {
-  font-size: 26px;
+  font-size: 20.8px;
   font-size: 2.6rem;
 }
 
 .u-typo--lv3 {
-  font-size: 24px;
+  font-size: 19.2px;
   font-size: 2.4rem;
 }
 
 .u-typo--lv4 {
-  font-size: 20px;
+  font-size: 16px;
   font-size: 2.0rem;
 }
 
 .u-typo--lv5 {
-  font-size: 18px;
+  font-size: 14.4px;
   font-size: 1.8rem;
 }
 
 .u-typo--lv6 {
-  font-size: 16px;
+  font-size: 12.8px;
   font-size: 1.6rem;
+}
+
+.box {
+  display: block;
+  padding: 8px 16px;
+  line-height: 1.6em;
+  text-align: center;
+  font-size: 14.4px;
+  font-size: 1.8rem;
+  background: #efefef;
+}
+
+.box.margin_bottom {
+  margin-bottom: 16px;
+}
+
+.box__text {
+  display: inline-block;
+  text-align: left;
+}
+
+.header {
+  padding: 0;
+  text-align: center;
+}
+
+.header-title {
+  display: inline-block;
+  padding: 16px 8px;
+  padding: 16px 1rem;
+  margin: 0;
+  white-space: nowrap;
+  font-size: 22.4px;
+  font-size: 2.8rem;
+}
+
+.header-title__phonetic {
+  display: block;
+  font-size: 9.6px;
+  font-size: 1.2rem;
+}
+
+.hero-wrap {
+  width: 92%;
+  padding: 16px 4%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: #fff;
+  border-top: solid 1px #bbb;
+  border-bottom: solid 1px #bbb;
+}
+
+.hero {
+  width: 280%;
+  margin: 0;
+}
+
+.hero__image {
+  display: block;
+  width: 100%;
+}
+
+.link {
+  position: relative;
+  display: block;
+  min-height: 48px;
+  padding: 8px 16px;
+  margin: 0;
+  text-decoration: none;
+  color: #222;
+}
+
+.link-list {
+  display: block;
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+.link-list__item {
+  display: block;
+  margin: 0 16px 16px;
+  margin: 0 2rem 2rem;
+  padding: 0;
+  border-left: 1px solid #bbb;
+}
+
+.link-dl {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.link-dl__title {
+  display: block;
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-size: 2rem;
+}
+
+.link-dl__data {
+  display: block;
+  margin: 0;
+  padding: 0;
+  line-height: 14.4px;
+  line-height: 1.8rem;
+  font-size: 14.4px;
+  font-size: 1.8rem;
+}
+
+p {
+  margin: 0;
+}
+
+.article {
+  display: block;
+  background: #fff;
+}
+
+.section {
+  display: block;
+  padding: 0;
+  margin: 0 0 32px;
+}
+
+.title {
+  display: block;
+  padding: 0;
+  margin: 0 0 8px;
+  text-align: center;
+  font-size: 17.6px;
+  font-size: 2.2rem;
 }
 
 /*# sourceMappingURL=common.css.map */
