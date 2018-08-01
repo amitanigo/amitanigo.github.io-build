@@ -21,6 +21,9 @@
 // original
 // ==========================================================================
 @import "original/*";
+.hide {
+  display: none;
+}
 p {
   margin: 0;
 }
@@ -28,6 +31,7 @@ p {
   display: block;
   background: #fff;
 }
+
 .section {
   display: block;
   padding: 0;
@@ -46,7 +50,7 @@ p {
   text-align: center;
   font-size: 2.2rem;
 }
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 768px) {
   .title {
     margin: 0 0 32px;
   }

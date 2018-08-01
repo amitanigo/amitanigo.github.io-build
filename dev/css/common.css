@@ -4986,6 +4986,42 @@ img {
   font-size: 1.6rem;
 }
 
+.belt-wrap {
+  display: block;
+  text-align: center;
+}
+
+.belt {
+  position: relative;
+  display: inline-block;
+  padding: 0 0 0 32px;
+  margin: 16px auto;
+  text-decoration: none;
+  color: #222;
+}
+
+.belt:hover {
+  text-decoration: underline;
+}
+
+.belt__icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  margin-top: -12px;
+}
+
+.belt__icon.icon_twitter {
+  fill: #1da1f2;
+}
+
+.belt__text {
+  font-size: 14.4px;
+  font-size: 1.8rem;
+}
+
 .box {
   display: block;
   padding: 8px 16px;
@@ -5003,6 +5039,12 @@ img {
 .box__text {
   display: inline-block;
   text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    padding: 16px 16px;
+  }
 }
 
 .header {
@@ -5114,6 +5156,10 @@ img {
   font-size: 1.8rem;
 }
 
+.hide {
+  display: none;
+}
+
 p {
   margin: 0;
 }
@@ -5145,7 +5191,7 @@ p {
   font-size: 2.2rem;
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 768px) {
   .title {
     margin: 0 0 32px;
   }
