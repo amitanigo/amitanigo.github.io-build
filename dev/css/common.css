@@ -5046,6 +5046,27 @@ img {
   width: 100%;
 }
 
+@media screen and (min-width: 768px) {
+  .hero-wrap {
+    margin: 0 auto;
+  }
+  .hero {
+    width: 100%;
+    margin: 0;
+  }
+  .hero__image {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .hero-wrap {
+    width: 980px;
+    padding: 16px 0;
+  }
+}
+
 .link {
   position: relative;
   display: block;
@@ -5108,6 +5129,13 @@ p {
   margin: 0 0 32px;
 }
 
+@media screen and (min-width: 980px) {
+  .section {
+    width: 680px;
+    margin: 0 auto;
+  }
+}
+
 .title {
   display: block;
   padding: 0;
@@ -5115,6 +5143,12 @@ p {
   text-align: center;
   font-size: 17.6px;
   font-size: 2.2rem;
+}
+
+@media screen and (min-width: 980px) {
+  .title {
+    margin: 0 0 32px;
+  }
 }
 
 /*# sourceMappingURL=common.css.map */

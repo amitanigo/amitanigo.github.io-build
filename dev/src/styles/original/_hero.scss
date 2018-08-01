@@ -15,3 +15,22 @@
   display: block;
   width: 100%;
 }
+@media screen and (min-width: 768px) {
+  .hero-wrap {
+    margin: 0 auto;
+  }
+  .hero {
+    width: 100%;
+    margin: 0;
+  }
+  .hero__image {
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 980px) {
+  .hero-wrap {
+    width: 980px;
+    padding: 16px 0;
+  }
+}
