@@ -1,8 +1,8 @@
 {
 	"name": "網谷豪 Amitani Go",
-	"description": "",
+	"description": "網谷豪の制作物一覧",
 	"keywords": "マンガ,イラスト",
-	"rootUrl": "//example.com/",
-	"ogpImage": "//example.com/images/og-image.jpg",
-	"favicon": "//example.com/images/favicon.ico"
+	"rootUrl": "https://amitanigo.github.io/",
+	"ogpImage": "images/ogpimage.jpg",
+	"favicon": "images/favicon.ico"
 }
