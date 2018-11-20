@@ -1,12 +1,12 @@
 .box {
   display: block;
-  padding: 8px 16px;
+  padding: 2rem;
   line-height: 1.6em;
   text-align: center;
   font-size: 1.8rem;
   background:#efefef;
   &.margin_bottom {
-    margin-bottom: 16px;
+    // margin-bottom: 16px;
   }
 }
 .box__text {
@@ -15,6 +15,6 @@
 }
 @media screen and (min-width: 768px) {
   .box {
-    padding: 16px 16px;
+    // padding: 8rem;
   }
 }
