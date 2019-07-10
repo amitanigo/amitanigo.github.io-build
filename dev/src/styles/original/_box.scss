@@ -22,7 +22,7 @@
   padding: 0 1rem;
   margin: 0;
   > p,> dl,> dl dt,> dl dd,> ul, > li {
-    line-height: 2rem;
+    line-height: 2.8rem;
     padding: 0;
     margin: 0;
     font-size: 2rem;
@@ -52,6 +52,11 @@
 }
 
 @media screen and (min-width: 980px) {
+  .box-data {
+    > p,> dl,> dl dt,> dl dd,> ul, > li {
+      line-height: 2.4rem;
+    }
+  }
 }
 @media screen and (min-width: 768px) {
   .box {
