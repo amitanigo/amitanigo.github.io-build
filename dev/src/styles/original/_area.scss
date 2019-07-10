@@ -1,0 +1,54 @@
+.area {
+  position: relative;
+  display: block;
+  padding: 4rem 2rem 2rem;
+  margin: 0 0 8rem;
+  &.bg_block {
+    background-image: url(../images/area_bg_block.jpg);
+    background-size: 20px auto;
+    background-repeat: repeat;
+    outline: 0.5rem solid $color--grey;
+    outline-offset: -0.5rem;
+  }
+  &.bg_noise {
+    background-image: url(../images/area_bg_noise.jpg);
+    background-repeat: repeat;
+  }
+}
+.area-title {
+  position: absolute;
+  top: -1rem;
+  left: 2rem;
+  display: block;
+  height: 2rem;
+  line-height: 2rem;
+  padding: 1rem 3rem;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: normal;
+  background: $color--black;
+  color: $color--white;
+}
+.area-link {
+  display: block;
+  padding: 1rem 2rem 2rem;
+  margin: 0 0 4rem;
+}
+
+@media screen and (min-width: 980px) {
+  .area {
+    padding: 8rem 2rem 2rem;
+  }
+  .area-title {
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .area {
+    &.bg_block {
+      background-size: 50px auto;
+    }
+  }
+}

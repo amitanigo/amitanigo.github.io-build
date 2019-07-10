@@ -1,0 +1,42 @@
+.bannar {
+  position: relative;
+  display: block;
+  min-width: 64px;
+  height: 48px;
+  color: $color--black;
+  &:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+  }
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 120px;
+  }
+  svg {
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin: -20px 0 0 -20px;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .bannar {
+    height: 64px;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+
+}

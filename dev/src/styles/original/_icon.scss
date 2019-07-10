@@ -1,0 +1,35 @@
+.icon {
+  position: relative;
+  display: block;
+  width: 48px;
+  height: 48px;
+  color: $color--black;
+  &:hover {
+    text-decoration: none;
+  }
+}
+.icon__svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+  margin: -16px 0 0 -16px;
+  // &.icon_twitter {
+  //     fill: #1da1f2;
+  // }
+}
+@media screen and (min-width: 980px) {
+  .icon {
+    width: 64px;
+    height: 64px;
+  }
+  .icon__svg {
+    width: 40px;
+    height: 40px;
+    margin: -20px 0 0 -20px;
+  }
+}
+@media screen and (min-width: 768px) {
+
+}

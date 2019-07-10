@@ -13,65 +13,112 @@ append variables
 	- var pageUrl= site.relativePath;
 
 block content
+	article.area.bg_block
+		h1.area-title 販売
+		.area-link
+			ul.list.by_side.margin_right
+				li.list__item
+					a(href="https://amitanigo.booth.pm/" class="bannar" target="_blank")
+						img(src="https://asset.booth.pm/static-images/banner/200x40_01.png")
+				li.list__item
+					a(href="https://suzuri.jp/amitanigo" class="bannar" target="_blank")
+						<svg>
+							<title>suzuri</title>
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#suzuri"></use>
+						</svg>
+		ul.list.margin_bottom.by_side1280
+			li.list__item
+				dl.box.has_figure.has_btn
+					dt.box-title AGO アゴ 2016
+					dd.box-data-figure
+						figure.product
+							img(src="images/ago_2016.jpg").product__img
+					dd.box-data
+						p 2018.9.30　発行<br>B6/114P/800円/オンデマンド
+						p 2016年に描いた短編マンガをまとめた本。
+						dl
+							dt 収録作品
+							dd
+								ul
+									li Doppel Gangers VS Restaurant GARP
+									li じゃがいもスパイ BARM
+									li SUICIDE IN THE AIR
+									li イエティは踊らない
+									li フェイシング
+							dt ページ数
+							dd 表紙と裏表紙合わせて、114ページ。
+					dd.box-data-btn
+						ul.list.by_inline.margin_right
+							li.list__item
+								a(href="https://amitanigo.booth.pm/items/1044085" class="btn btn_booth" target="_blank")
+									p.btn__main 製本版 800円
+									span.btn__info BOOTHで購入する
+							li.list__item
+								a(href="https://amitanigo.booth.pm/items/1043917" class="btn btn_booth" target="_blank")
+									p.btn__main DL版 500円
+									span.btn__info BOOTHで購入する
+			li.list__item
+				dl.box.has_figure.has_btn
+					dt.box-title AGO アゴ 2017
+					dd.box-data-figure
+						figure.product
+							img(src="images/ago_2017.jpg").product__img
+
+					dd.box-data
+						p 2018.9.30　発行<br>B6/100P/800円/オンデマンド
+						p 2017年に描いた短編マンガをまとめた本。
+						dl
+							dt 収録作品
+							dd
+								ul
+									li Joggers High
+									li バードバードバード
+									li ヘルズソサエティの空
+									li エンディングロール
+							dt ページ数
+							dd 表紙と裏表紙合わせて、100ページ。
+					dd.box-data-btn
+						ul.list.by_inline.margin_right
+							li.list__item
+								a(href="https://amitanigo.booth.pm/items/1044100" class="btn btn_booth" target="_blank")
+									p.btn__main 製本版 800円
+									span.btn__info BOOTHで購入する
+							li.list__item
+								a(href="https://amitanigo.booth.pm/items/1044074" class="btn btn_booth" target="_blank")
+									p.btn__main DL版 500円
+									span.btn__info BOOTHで購入する
+
+	article.area.bg_noise
+		h1.area-title WEBで読めるマンガ
+		ul.list.by_inline
+			li.list__item
+				a(href="http://mavo.takekuma.jp/viewer.php?id=986" class="btn btn_text" target="_blank") 電脳マヴォ
+			li.list__item
+				a(href="https://rookie.shonenjump.com/users/1609047349018503201" class="btn btn_text" target="_blank") ジャンプルーキー
+			li.list__item
+				a(href="http://toko.takekuma.jp/home.php?userid=273" class="btn btn_text" target="_blank") 投稿マヴォ
+			li.list__item
+				a(href="https://mangahack.com/users/28695/comics" class="btn btn_text" target="_blank") マンガハック
+			li.list__item
+				a(href="https://www-indies.mangabox.me/episode/79908/" class="btn btn_text" target="_blank") マンガボックスインディーズ
+
+
+
+
+
+
+
+
+
+
 	// +gnavi( pageUrl )
 	// contents
 	// h2= pageUrl
-	.hero-wrap
-		figure.hero
-			img(src="images/hero.png").hero__image
-	.belt-wrap
-		a(href="https://twitter.com/amitanigo" class="belt" target="_blank")
-			<svg class="belt__icon icon_twitter">
-				<title>TWITTER</title>
-				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
-			</svg>
-			p.belt__text @amitanigo
-	article.article
-		.box.margin_bottom
-			.box__text
-				p マンガを販売しているサイト
-					//
-						br
-						|
-					//-
-		section.section
-			// h2.title マンガ
-			ul.link-list
-				li.link-list__item
-					a(href="https://amitanigo.booth.pm/" target="_blank").link
-						dl.link-dl
-							dt.link-dl__title BOOTH
-							dd.link-dl__data 関西コミティア53で、はじめてサークル参加した。その時に製本したマンガの短編集の販売。
-		.box.margin_bottom
-			.box__text
-				p WEBで読めるマンガやブログのリンク一覧
-		section.section
-			h2.title マンガ
-			ul.link-list
-				li.link-list__item
-					a(href="https://rookie.shonenjump.com/users/1609047349018503201" target="_blank").link
-						dl.link-dl
-							dt.link-dl__title ジャンプルーキー
-							dd.link-dl__data はじめて投稿したマンガサイト。
-				li.link-list__item
-					a(href="http://toko.takekuma.jp/home.php?userid=273" target="_blank").link
-						dl.link-dl
-							dt.link-dl__title 投稿マヴォ
-							dd.link-dl__data サイトに載ったら、TWITTERで竹熊さんがマンガの感想をつぶやいてくれる。
-				li.link-list__item
-					a(href="https://www-indies.mangabox.me/episode/79908/" target="_blank").link
-						dl.link-dl
-							dt.link-dl__title マンガボックスインディーズ
-							dd.link-dl__data 「カセット＆ソフト」という作品は、マンガボックスインディーズにしかアップロードしていない。作者の作品一覧、みたいなページがないので、このリンクはその「カセット＆ソフト」に飛ぶ。
-				li.link-list__item
-					a(href="https://mangahack.com/users/28695/comics" target="_blank").link
-						dl.link-dl
-							dt.link-dl__title マンガハック
-							dd.link-dl__data 他の投稿マンガサイトも試してみたくて投稿してみた。
-			h2.title ブログ
-			ul.link-list
-				li.link-list__item
-					a(href="https://note.mu/amitanigo" target="_blank").link
-						dl.link-dl
-							dt.link-dl__title note
-							dd.link-dl__data ネームとか下書きとかしていない1ページマンガ、ブログとかバンド活動記録とか。
+	// img(src="images/spacer.gif" style="background-image:url('images/ago_2016.jpg')").product__img
+
+
+
+		//
+			br
+			|
+		//-

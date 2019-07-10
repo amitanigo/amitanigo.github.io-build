@@ -1,0 +1,62 @@
+.btn {
+  display: block;
+  margin: 1rem 0;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  &.btn_booth {
+    background: #e1292e;
+    color: $color--white;
+    border-radius: 2rem;
+    border-bottom: solid 4px $color--grey;
+    &:hover {
+      opacity: 0.9;
+    }
+    &:active {
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);/*下に動く*/
+      border-bottom: none;
+    }
+  }
+  &.btn_text {
+    display: inline-block;
+    min-height: 3rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: $color--black;
+    &:hover {
+
+    }
+    &:visited {
+      color: $color--grey;
+    }
+  }
+}
+
+.btn__main {
+  display: block;
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+}
+.btn__info {
+  font-size: 1.4rem;
+}
+
+@media screen and (min-width: 980px) {
+
+}
+@media screen and (min-width: 768px) {
+  .btn__main {
+    font-size: 3rem;
+  }
+  .btn__info {
+    font-size: 2rem;
+  }
+  .btn {
+    &.btn_text {
+      min-height: 3rem;
+      line-height: 3rem;
+      font-size: 3rem;
+    }
+  }
+}

@@ -1,9 +1,6 @@
 .footer {
 	display: block;
-	padding: 8rem 0;
-	background:#efefef;
-	border-top: #bbb;
-	text-align: center;
+	padding: 2rem;
 	@include breakpoint( tablet ) {
 	}
 	@include breakpoint( pc ) {
@@ -14,15 +11,5 @@
 	}
 }
 .footer-text {
-	display: inline-block;
-	text-align: left;
-	font-size: 1.6rem;
-	line-height: 2.4rem;
-}
-.fotter-hero {
-	display: block;
-	width:80%;
-	max-width: 200px;
-	margin: 0 auto;
-	padding: 40px 10%;
+	font-size: 2rem;
 }

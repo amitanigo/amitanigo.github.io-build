@@ -6,10 +6,11 @@ html( lang=pageLang )
 		include _head
 
 	body
-		include _svg
-		include _header
+		.container
+			include _svg
+			include _header
 
-		block content
+			block content
 
-		include _footer
+			include _footer
 		include _script
