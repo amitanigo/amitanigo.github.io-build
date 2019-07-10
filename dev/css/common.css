@@ -5043,6 +5043,7 @@ img {
   font-weight: normal;
   background: #222;
   color: #f8f8f8;
+  font-family: "Noto Sans Japanese";
 }
 
 .area-link {
@@ -5352,6 +5353,7 @@ img {
   font-size: 16px;
   font-size: 2rem;
   font-weight: normal;
+  font-family: "Noto Sans Japanese";
 }
 
 @media screen and (min-width: 980px) {
